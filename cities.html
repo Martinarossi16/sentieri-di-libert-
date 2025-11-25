@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://sentieridiliberta.github.io/Blog/Cities.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cities - Sentieri di libertà</title>
+    <meta name="description" content="Explore both small towns and great cities with unforgettable skylines and unique atmospheres with Sentieri di libertà.">
+    <meta name="keywords" content="city travel, urban destinations, European cities, Barcelona, Berlin, Florence, Rome, Venice, Munich, Vienna, Pisa, Sentieri di libertà">
+    <meta name="author" content="Sentieri di libertà">
+    
+    <meta property="og:title" content="Cities - Sentieri di libertà">
+    <meta property="og:description" content="Explore both small towns and great cities with unforgettable skylines and unique atmospheres.">
+    <meta property="og:type" content="website">
+    
+    <style>
+        /* Reset e stili base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #ffefef, #ffcccc, #ff9999);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header */
+        header {
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: 700;
+            color: #8B0000;
+        }
+        
+        .logo img {
+            height: 50px;
+            width: auto;
+            border-radius: 5px;
+        }
+        
+        .logo span {
+            color: #B22222;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            align-items: center;
+        }
+        
+        nav ul li {
+            margin-left: 30px;
+            position: relative;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: #8B0000;
+        }
+        
+        /* Dropdown Menu */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 200px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            z-index: 1;
+            border-radius: 5px;
+            overflow: hidden;
+            top: 100%;
+            left: 0;
+        }
+        
+        .dropdown-content li {
+            margin: 0;
+        }
+        
+        .dropdown-content li a {
+            display: block;
+            padding: 10px 20px;
+            color: #2c3e50;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        
+        .dropdown-content li a:hover {
+            background-color: #f8f8f8;
+            color: #8B0000;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        .mobile-menu {
+            display: none;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            margin-bottom: 60px;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #FF6347;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto;
+            color: #FFB6C1;
+            font-weight: 600;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+        }
+        
+        /* Intro Section */
+        .intro-section {
+            text-align: center;
+            margin-bottom: 60px;
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .intro-section h2 {
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+            color: #8B0000;
+        }
+        
+        .intro-section p {
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #2c3e50;
+            font-style: italic;
+        }
+        
+        /* Destinations Grid */
+        .destinations-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-bottom: 80px;
+        }
+        
+        .destination-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .destination-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .destination-image {
+            height: 250px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .destination-content {
+            padding: 25px;
+        }
+        
+        .destination-content h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: #8B0000;
+        }
+        
+        .destination-content p {
+            color: #2c3e50;
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+        
+        .destination-meta {
+            display: flex;
+            justify-content: space-between;
+            color: #666;
+            font-size: 0.9rem;
+            border-top: 1px solid #eee;
+            padding-top: 15px;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #1a1a1a;
+            color: #ddd;
+            padding: 60px 0 30px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-column h3 {
+            color: white;
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+        }
+        
+        .footer-column p {
+            font-style: italic;
+            color: white;
+        }
+        
+        .footer-column ul {
+            list-style: none;
+        }
+        
+        .footer-column ul li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-column ul li a {
+            color: #ddd;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-column ul li a:hover {
+            color: #B22222;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: #B22222;
+            border-radius: 50%;
+            color: white !important;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        
+        .social-links a:hover {
+            background-color: #8B0000;
+            color: white !important;
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid #333;
+            font-size: 0.9rem;
+            color: #cccccc;
+        }
+
+        /* Logo nel footer */
+        .footer-logo {
+            max-width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        
+        /* Colori marcati per tutti i titoli e testo */
+        h1, h2, h3, h4, h5, h6 {
+            color: #8B0000;
+        }
+        
+        p, li, a, span {
+            color: #2c3e50;
+        }
+        
+        /* Eccetto per i link nel footer */
+        footer a {
+            color: #ddd;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            nav ul {
+                margin-top: 20px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            nav ul li {
+                margin: 5px 15px;
+            }
+            
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+            
+            .destinations-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            /* Mobile dropdown */
+            .dropdown-content {
+                position: static;
+                box-shadow: none;
+                display: none;
+                width: 100%;
+            }
+            
+            .dropdown.active .dropdown-content {
+                display: block;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .hero {
+                padding: 60px 20px;
+            }
+            
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            
+            .intro-section {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+<style type="text/css" id="operaUserStyle"></style></head>
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="logo.webp" alt="Sentieri di libertà Logo">
+                <span>Sentieri di <span style="color: #B22222;">libertà</span></span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html#my-story">About Me</a></li>
+                    <li class="dropdown">
+                        <a>Destinations</a>
+                        <ul class="dropdown-content">
+                            <li><a href="mountains.html">Mountains</a></li>
+                            <li><a href="sea-beach.html">Sea and Beach</a></li>
+                            <li><a href="cities.html">Cities</a></li>
+                            <li><a href="lakes.html">Lakes</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="cv.html">Curriculum Vitae</a></li>
+                    <li><a href="trip.html">A Trip With Me</a></li>
+                    <li><a href="index.html#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">☰</div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>City Lights &amp; Timeless Stories</h1>
+            <p>Explore both small towns and great cities with unforgettable skylines and unique atmospheres</p>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="intro-section">
+            <h2>Urban Explorations</h2>
+            <p>In this section, I explore both small towns and great cities with unforgettable skylines and unique atmospheres. From charming places like Gemona, San Marino, and Ercolano, to world-famous cities such as Barcelona, Berlin, Florence, Rome, Venice, Munich, Pisa, and Paris — and beyond, reaching into Slovenia and Austria — each destination tells its own story. I dive into history, culture, legends, traditions, and festivals, revealing the soul of each city through vivid storytelling and captivating landscapes — because every skyline hides memories waiting to be discovered.</p>
+        </div>
+
+        <div class="destinations-grid">
+            <a href="https://myfreedomtrails.wordpress.com/2025/07/29/whispers-of-vienna-a-journey-through-time-art-and-elegance-%f0%9f%87%a6%f0%9f%87%b9-%f0%9f%8e%a8%f0%9f%8e%bc%f0%9f%8e%bb%f0%9f%93%b8/" target="_blank" style="text-decoration: none;">
+                <div class="destination-card">
+                    <div class="destination-image" style="background-image: url('https://images.unsplash.com/photo-1516550893923-42d28e5677af?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')"></div>
+                    <div class="destination-content">
+                        <h3>Vienna</h3>
+                        <p>Whispers through time: art, elegance, and imperial grandeur in Austria's magnificent capital.</p>
+                        <div class="destination-meta">
+                            <span>Austria</span>
+                            <span>Imperial City</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://myfreedomtrails.wordpress.com/2025/05/09/venice-a-journey-through-history-art-and-magic-of-carnival-%f0%9f%8e%ad/" target="_blank" style="text-decoration: none;">
+                <div class="destination-card">
+                    <div class="destination-image" style="background-image: url('venezia.jpeg')"></div>
+                    <div class="destination-content">
+                        <h3>Venice</h3>
+                        <p>A journey through history, art, and the magic of carnival in the floating city.</p>
+                        <div class="destination-meta">
+                            <span>Italy</span>
+                            <span>Unique Architecture</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://myfreedomtrails.wordpress.com/2024/11/09/gemona-formaggio-e-dintorni-una-tradizione-casearia-che-celebra-la-terra-e-i-sapori-%f0%9f%8e%89%f0%9f%a7%80%f0%9f%90%ae%f0%9f%90%91%f0%9f%90%87/" target="_blank" style="text-decoration: none;">
+                <div class="destination-card">
+                    <div class="destination-image" style="background-image: url('gemona.jpeg')"></div>
+                    <div class="destination-content">
+                        <h3>Gemona</h3>
+                        <p>Cheese, tradition, and the celebration of local flavors in Friuli's charming mountain town.</p>
+                        <div class="destination-meta">
+                            <span>Friuli-Venezia Giulia</span>
+                            <span>Culinary Heritage</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://myfreedomtrails.wordpress.com/2024/10/15/monaco-di-baviera-un-viaggio-nel-cuore-della-cultura-e-della-storia-%f0%9f%87%a9%f0%9f%87%aa%f0%9f%8d%bb/" target="_blank" style="text-decoration: none;">
+                <div class="destination-card">
+                    <div class="destination-image" style="background-image: url('https://images.unsplash.com/photo-1595867818082-083862f3d630?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')"></div>
+                    <div class="destination-content">
+                        <h3>Munich</h3>
+                        <p>Culture, history, and Bavarian traditions in the heart of Germany.</p>
+                        <div class="destination-meta">
+                            <span>Germany</span>
+                            <span>Bavarian Capital</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://myfreedomtrails.wordpress.com/2024/10/16/alla-scoperta-di-berlino-storia-cultura-e-street-art-%f0%9f%87%a9%f0%9f%87%aa-%f0%9f%8e%b5%f0%9f%8e%a8/" target="_blank" style="text-decoration: none;">
+                <div class="destination-card">
+                    <div class="destination-image" style="background-image: url('https://images.unsplash.com/photo-1599946347371-68eb71b16afc?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')"></div>
+                    <div class="destination-content">
+                        <h3>Berlin</h3>
+                        <p>History, culture, and vibrant street art in Germany's dynamic capital.</p>
+                        <div class="destination-meta">
+                            <span>Germany</span>
+                            <span>Cultural Hub</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://myfreedomtrails.wordpress.com/2024/10/11/tra-ombre-e-leggende-un-viaggio-gotico-nel-cuore-del-friuli/" target="_blank" style="text-decoration: none;">
+                <div class="destination-card">
+                    <div class="destination-image" style="background-image: url('gemona.jpeg')"></div>
+                    <div class="destination-content">
+                        <h3>Friuli</h3>
+                        <p>Gothic shadows and ancient legends in the heart of northeastern Italy.</p>
+                        <div class="destination-meta">
+                            <span>Italy</span>
+                            <span>Historic Region</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://myfreedomtrails.wordpress.com/2024/10/10/parigi-la-magia-della-citta-delle-luci/" target="_blank" style="text-decoration: none;">
+                <div class="destination-card">
+                    <div class="destination-image" style="background-image: url('https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')"></div>
+                    <div class="destination-content">
+                        <h3>Paris</h3>
+                        <p>The magic of the City of Light: romance, art, and unforgettable experiences.</p>
+                        <div class="destination-meta">
+                            <span>France</span>
+                            <span>Romantic Capital</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://myfreedomtrails.wordpress.com/2024/10/07/san-marino-la-storia-le-leggende-e-il-fascino-della-repubblica-piu-antica-del-mondo/" target="_blank" style="text-decoration: none;">
+                <div class="destination-card">
+                    <div class="destination-image" style="background-image: url('san-marino.webp')"></div>
+                    <div class="destination-content">
+                        <h3>San Marino</h3>
+                        <p>History, legends, and the charm of the world's oldest republic.</p>
+                        <div class="destination-meta">
+                            <span>Italy</span>
+                            <span>Historic Republic</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://myfreedomtrails.wordpress.com/2024/10/06/grosseto-il-cuore-della-maremma-toscana/" target="_blank" style="text-decoration: none;">
+                <div class="destination-card">
+                    <div class="destination-image" style="background-image: url('grosseto.jpeg')"></div>
+                    <div class="destination-content">
+                        <h3>Grosseto</h3>
+                        <p>The heart of Tuscany's Maremma region: nature, history, and authentic charm.</p>
+                        <div class="destination-meta">
+                            <span>Italy</span>
+                            <span>Tuscan Region</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://myfreedomtrails.wordpress.com/2024/10/05/milano-a-gennaio-la-capitale-della-moda-tra-storia-e-modernita/" target="_blank" style="text-decoration: none;">
+                <div class="destination-card">
+                    <div class="destination-image" style="background-image: url('milano.jpeg')"></div>
+                    <div class="destination-content">
+                        <h3>Milan</h3>
+                        <p>Fashion capital: where history and modernity blend seamlessly.</p>
+                        <div class="destination-meta">
+                            <span>Italy</span>
+                            <span>Fashion Hub</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://myfreedomtrails.wordpress.com/2024/10/04/firenze-e-fiesole-un-viaggio-tra-arte-storia-e-vedute-mozzafiato/" target="_blank" style="text-decoration: none;">
+                <div class="destination-card">
+                    <div class="destination-image" style="background-image: url('firenze.jpeg')"></div>
+                    <div class="destination-content">
+                        <h3>Florence & Fiesole</h3>
+                        <p>Art, history, and breathtaking views in Tuscany's most beautiful cities.</p>
+                        <div class="destination-meta">
+                            <span>Italy</span>
+                            <span>Art Capital</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://myfreedomtrails.wordpress.com/2024/10/03/roma-leterna-meraviglia-tra-storia-e-bellezza/" target="_blank" style="text-decoration: none;">
+                <div class="destination-card">
+                    <div class="destination-image" style="background-image: url('https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')"></div>
+                    <div class="destination-content">
+                        <h3>Rome</h3>
+                        <p>The Eternal Wonder: history, beauty, and timeless grandeur.</p>
+                        <div class="destination-meta">
+                            <span>Italy</span>
+                            <span>Historical Capital</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://myfreedomtrails.wordpress.com/2024/09/30/orvieto-unesplorazione-di-chiese-e-storia/" target="_blank" style="text-decoration: none;">
+                <div class="destination-card">
+                    <div class="destination-image" style="background-image: url('orvieto.jpeg')"></div>
+                    <div class="destination-content">
+                        <h3>Orvieto</h3>
+                        <p>Exploration of churches and history in Umbria's stunning hilltop city.</p>
+                        <div class="destination-meta">
+                            <span>Italy</span>
+                            <span>Medieval City</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://myfreedomtrails.wordpress.com/2024/09/29/ercolano-pompei-e-procida-un-viaggio-tra-storia-e-bellezza/" target="_blank" style="text-decoration: none;">
+                <div class="destination-card">
+                    <div class="destination-image" style="background-image: url('pompei.jpeg')"></div>
+                    <div class="destination-content">
+                        <h3>Ercolano, Pompei & Procida</h3>
+                        <p>A journey through ancient history and island beauty in Campania.</p>
+                        <div class="destination-meta">
+                            <span>Italy</span>
+                            <span>Historical Sites</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <img src="./Cities - Sentieri di libertà_files/Logo.jpg" alt="Sentieri di libertà" class="footer-logo">
+                    <p>Your travel companion to authentic and unforgettable experiences around the world.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="index.html#my-story">About Me</a></li>
+                        <li><a href="cv.html">Curriculum Vitae</a></li>
+                        <li><a href="trip.html">A Trip With Me</a></li>
+                        <li><a href="index.html#contact">Contact Me</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Sentieri di libertà. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Script per il menu mobile
+        document.querySelector('.mobile-menu').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        // Script per dropdown mobile
+        document.querySelectorAll('.dropdown > a').forEach(dropdown => {
+            dropdown.addEventListener('click', function(e) {
+                if (window.innerWidth <= 768) {
+                    e.preventDefault();
+                    this.parentElement.classList.toggle('active');
+                }
+            });
+        });
+
+        // Script per lo scroll smooth a tutte le ancore interne
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+
+
+
+
+</body></html>

@@ -1,0 +1,146 @@
+<!-- BLOCCO DESTINAZIONI COMPLETO -->
+
+<div style="max-width: 1200px; margin: 40px auto; padding: 20px;">
+
+  <!-- MOUNTAINS -->
+  <h2 style="text-align: center; margin-bottom: 20px;">Mountains – Between Trails, Villages, and Alpine Silence</h2>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+    <a href="https://myfreedomtrails.wordpress.com/2024/12/08/la-notte-dei-diavoli-con-pelo-ispido-corna-imponenti-campanacci-assordanti-fruste-e-volti-inquietanti/" target="_blank" style="text-decoration: none; color: inherit;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Mangart%2C_Slovenia_-_view_from_the_slope.jpg" alt="Notte dei Diavoli – Tarvisio" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top: 10px;">La Notte dei Diavoli – Tarvisio</p>
+    </a>
+    <a href="https://myfreedomtrails.wordpress.com/2024/10/20/autunno-a-tarvisio-un-viaggio-sul-sentiero-dei-cervi/" target="_blank" style="text-decoration: none; color: inherit;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/Autumn_in_the_mountains.jpg" alt="Sentiero dei Cervi – Tarvisio" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top: 10px;">Sentiero dei Cervi – Tarvisio</p>
+    </a>
+    <a href="https://myfreedomtrails.wordpress.com/2024/10/11/tra-ombre-e-leggende-un-viaggio-gotico-nel-cuore-del-friuli/" target="_blank" style="text-decoration: none; color: inherit;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Alpine_forest_and_peaks.jpg" alt="Friuli Montagna" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top: 10px;">Tra ombre e leggende – Friuli</p>
+    </a>
+  </div>
+
+  <!-- SEA & COASTAL -->
+  <h2 style="text-align: center; margin: 40px 0 20px;">Sea & Coastal Towns</h2>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+    <a href="https://myfreedomtrails.wordpress.com/2025/06/08/%f0%9f%8c%8a-bibione-between-sea-and-wonder-diary-of-a-journey-between-relaxation-history-and-fun/" target="_blank" style="text-decoration: none; color: inherit;">
+      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Bibione" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top:10px;">Bibione</p>
+    </a>
+    <a href="https://myfreedomtrails.wordpress.com/2024/10/10/barcellona-un-viaggio-estivo-tra-architettura-spiagge-e-arte-nel-cuore-della-catalogna-%f0%9f%87%aa%f0%9f%87%b8/" target="_blank" style="text-decoration: none; color: inherit;">
+      <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34" alt="Barcellona" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top:10px;">Barcellona</p>
+    </a>
+    <a href="https://myfreedomtrails.wordpress.com/2024/10/08/lignano-sabbiadoro-tra-storia-e-spiagge-dorate/" target="_blank" style="text-decoration: none; color: inherit;">
+      <img src="https://images.unsplash.com/photo-1533050487297-09b450131914" alt="Lignano Sabbiadoro" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top:10px;">Lignano Sabbiadoro</p>
+    </a>
+    <a href="https://myfreedomtrails.wordpress.com/2024/09/29/ercolano-pompei-e-procida-un-viaggio-tra-storia-e-bellezza/" target="_blank" style="text-decoration: none; color: inherit;">
+      <img src="https://images.unsplash.com/photo-1528036892843-3e79c8d2c1f8" alt="Procida" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top:10px;">Procida</p>
+    </a>
+  </div>
+
+  <!-- CITIES -->
+  <h2 style="text-align: center; margin: 40px 0 20px;">City Lights & Timeless Stories</h2>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+    <a href="https://myfreedomtrails.wordpress.com/2025/07/29/whispers-of-vienna-a-journey-through-time-art-and-elegance-%f0%9f%87%a6%f0%9f%87%b9-%f0%9f%8e%a8%f0%9f%8e%bc%f0%9f%8e%bb%f0%9f%93%b8/" target="_blank" style="text-decoration: none; color: inherit;">
+      <img src="https://images.unsplash.com/photo-1504805572947-34fad45aed93" alt="Vienna" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top:10px;">Vienna</p>
+    </a>
+    <a href="https://myfreedomtrails.wordpress.com/2025/05/09/venice-a-journey-through-history-art-and-magic-of-carnival-%f0%9f%8e%ad/" target="_blank" style="text-decoration: none; color: inherit;">
+      <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34" alt="Venice" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top:10px;">Venice</p>
+    </a>
+    <a href="https://myfreedomtrails.wordpress.com/2024/11/09/gemona-formaggio-e-dintorni-una-tradizione-casearia-che-celebra-la-terra-e-i-sapori-%f0%9f%8e%89%f0%9f%a7%80%f0%9f%90%ae%f0%9f%90%91%f0%9f%90%87/" target="_blank" style="text-decoration: none; color: inherit;">
+      <img src="https://images.unsplash.com/photo-1529424305543-58a28e49d20b" alt="Gemona" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top:10px;">Gemona</p>
+    </a>
+    <a href="https://myfreedomtrails.wordpress.com/2024/10/15/monaco-di-baviera-un-viaggio-nel-cuore-della-cultura-e-della-storia-%f0%9f%87%a9%f0%9f%87%aa%f0%9f%8d%bb/" target="_blank" style="text-decoration: none; color: inherit;">
+      <img src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad" alt="Munich" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top:10px;">Munich</p>
+    </a>
+    <a href="https://myfreedomtrails.wordpress.com/2024/10/16/alla-scoperta-di-berlino-storia-cultura-e-street-art-%f0%9f%87%a9%f0%9f%87%aa-%f0%9f%8e%b5%f0%9f%8e%a8/" target="_blank" style="text-decoration: none; color: inherit;">
+      <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231" alt="Berlin" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top:10px;">Berlin</p>
+    </a>
+    <a href="https://myfreedomtrails.wordpress.com/2024/10/11/tra-ombre-e-leggende-un-viaggio-gotico-nel-cuore-del-friuli/" target="_blank" style="text-decoration: none; color: inherit;">
+      <img src="https://images.unsplash.com/photo-1534351590666-13e3e96b5017" alt="Friuli" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top:10px;">Friuli</p>
+    </a>
+    <a href="https://myfreedomtrails.wordpress.com/2024/10/10/parigi-la-magia-della-citta-delle-luci/" target="_blank" style="text-decoration: none; color: inherit;">
+      <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34" alt="Paris" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top:10px;">Paris</p>
+    </a>
+    <a href="https://myfreedomtrails.wordpress.com/2024/10/07/san-marino-la-storia-le-leggende-e-il-fascino-della-repubblica-piu-antica-del-mondo/" target="_blank" style="text-decoration: none; color: inherit;">
+      <img src="https://images.unsplash.com/photo-1518593924035-65fbcde9f4bb" alt="San Marino" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top:10px;">San Marino</p>
+    </a>
+    <a href="https://myfreedomtrails.wordpress.com/2024/10/06/grosseto-il-cuore-della-maremma-toscana/" target="_blank" style="text-decoration: none; color: inherit;">
+      <img src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe" alt="Grosseto" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top:10px;">Grosseto</p>
+    </a>
+    <a href="https://myfreedomtrails.wordpress.com/2024/10/05/milano-a-gennaio-la-capitale-della-moda-tra-storia-e-modernita/" target="_blank" style="text-decoration: none; color: inherit;">
+      <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba" alt="Milan" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top:10px;">Milan</p>
+    </a>
+    <a href="https://myfreedomtrails.wordpress.com/2024/10/04/firenze-e-fiesole-un-viaggio-tra-arte-storia-e-vedute-mozzafiato/" target="_blank" style="text-decoration: none; color: inherit;">
+      <img src="https://images.unsplash.com/photo-1505739771374-316e0b5c2330" alt="Florence" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top:10px;">Florence & Fiesole</p>
+    </a>
+    <a href="https://myfreedomtrails.wordpress.com/2024/10/03/roma-leterna-meraviglia-tra-storia-e-bellezza/" target="_blank" style="text-decoration: none; color: inherit;">
+      <img src="https://images.unsplash.com/photo-1484665739383-a1069a82d4be" alt="Rome" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top:10px;">Rome</p>
+    </a>
+    <a href="https://myfreedomtrails.wordpress.com/2024/09/30/orvieto-unesplorazione-di-chiese-e-storia/" target="_blank" style="text-decoration: none; color: inherit;">
+      <img src="https://images.unsplash.com/photo-1526804507-25e8e2ee632e" alt="Orvieto" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top:10px;">Orvieto</p>
+    </a>
+    <a href="https://myfreedomtrails.wordpress.com/2024/09/29/ercolano-pompei-e-procida-un-viaggio-tra-storia-e-bellezza/" target="_blank" style="text-decoration: none; color: inherit;">
+      <img src="https://images.unsplash.com/photo-1528036892843-3e79c8d2c1f8" alt="Ercolano e Pompei / Procida" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top:10px;">Ercolano, Pompei & Procida</p>
+    </a>
+  </div>
+
+  <!-- LAKES & RIVERS -->
+  <h2 style="text-align: center; margin: 40px 0 20px;">Where Lakes and Rivers Tell Their Tales</h2>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+    <a href="https://myfreedomtrails.wordpress.com/2024/10/14/scoprendo-il-lago-wernberg-tra-natura-e-tradizioni-austriache/" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Gr%C3%BCnausee%2C_Austria.jpg" alt="Lago Wernberg Austria" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top:10px;">Lago Wernberg, Austria</p>
+    </a>
+    <a href="https://myfreedomtrails.wordpress.com/2024/09/29/forra-del-torrente-leale-unavventura-tra-meraviglie-naturali-e-biodiversita-unica/" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Slovenia_river_mountain.jpg" alt="Torrente Leale Gemona" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top:10px;">Torrente Leale, Gemona</p>
+    </a>
+    <a href="https://myfreedomtrails.wordpress.com/2024/09/28/fiume-val-bartolo-a-tarvisio/" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Mountain_Stream_Friuli.jpg" alt="Fiume Val Bartolo Tarvisio" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top:10px;">Fiume Val Bartolo, Tarvisio</p>
+    </a>
+    <a href="https://myfreedomtrails.wordpress.com/2024/09/28/torrente-palar-a-trasaghis/" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Alpine_torrent.jpg" alt="Torrente Palar" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top:10px;">Torrente Palar, Trasaghis</p>
+    </a>
+    <a href="https://myfreedomtrails.wordpress.com/2024/09/28/lago-del-predil-la-gemma-nascosta-del-friuli-venezia-giulia/" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Predil_Lake_%28Lago_del_Predil%29.jpg" alt="Lago del Predil" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top:10px;">Lago del Predil, Tarvisio</p>
+    </a>
+    <a href="https://myfreedomtrails.wordpress.com/2024/09/28/il-lago-dei-tre-comuni-un-angolo-di-paradiso-naturale/" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Lake_in_friuli.jpg" alt="Lago dei Tre Comuni" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top:10px;">Lago dei Tre Comuni</p>
+    </a>
+    <a href="https://myfreedomtrails.wordpress.com/2024/09/28/lago-jasna-il-gioiello-di-kranjska-gora-%f0%9f%87%b8%f0%9f%87%ae/" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Lake_Jasna%2C_Slovenia.jpg" alt="Lago Jasna Slovenia" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top:10px;">Lago Jasna, Slovenia</p>
+    </a>
+    <a href="https://myfreedomtrails.wordpress.com/2024/09/27/lago-minisini-di-ospedaletto/" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Mountain_Lake_Italy.jpg" alt="Lago Minisini Ospedaletto" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top:10px;">Lago Minisini, Ospedaletto</p>
+    </a>
+    <a href="https://myfreedomtrails.wordpress.com/2024/09/27/laghi-di-fusine-un-paradiso-tra-le-montagne-del-tarvisio/" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Fusine_Lakes_Tarvisio_Italy.jpg" alt="Laghi di Fusine Tarvisio" style="width:250px; height:150px; object-fit:cover; border-radius:10px;">
+      <p style="text-align:center; margin-top:10px;">Laghi di Fusine, Tarvisio</p>
+    </a>
+  </div>
+
+</div>
+<!-- Fine blocco Destinations -->

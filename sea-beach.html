@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)https://sentieridiliberta.github.io/Blog/Sea-and-beach.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sea and Beach - Sentieri di libertà</title>
+    <meta name="description" content="Discover seaside towns and coastal landscapes where the sea blends with life, history, and celebration with Sentieri di libertà.">
+    <meta name="keywords" content="sea travel, beach destinations, coastal towns, Bibione, Lignano Sabbiadoro, Barcelona, Procida, Sentieri di libertà">
+    <meta name="author" content="Sentieri di libertà">
+    
+    <meta property="og:title" content="Sea and Beach - Sentieri di libertà">
+    <meta property="og:description" content="Discover seaside towns and coastal landscapes where the sea blends with life, history, and celebration.">
+    <meta property="og:type" content="website">
+    
+    <style>
+        /* Reset e stili base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #ffefef, #ffcccc, #ff9999);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header */
+        header {
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: 700;
+            color: #8B0000;
+        }
+        
+        .logo img {
+            height: 50px;
+            width: auto;
+            border-radius: 5px;
+        }
+        
+        .logo span {
+            color: #B22222;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            align-items: center;
+        }
+        
+        nav ul li {
+            margin-left: 30px;
+            position: relative;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: #8B0000;
+        }
+        
+        /* Dropdown Menu */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 200px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            z-index: 1;
+            border-radius: 5px;
+            overflow: hidden;
+            top: 100%;
+            left: 0;
+        }
+        
+        .dropdown-content li {
+            margin: 0;
+        }
+        
+        .dropdown-content li a {
+            display: block;
+            padding: 10px 20px;
+            color: #2c3e50;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        
+        .dropdown-content li a:hover {
+            background-color: #f8f8f8;
+            color: #8B0000;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        .mobile-menu {
+            display: none;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            margin-bottom: 60px;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #FF6347;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto;
+            color: #FFB6C1;
+            font-weight: 600;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+        }
+        
+        /* Intro Section */
+        .intro-section {
+            text-align: center;
+            margin-bottom: 60px;
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .intro-section h2 {
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+            color: #8B0000;
+        }
+        
+        .intro-section p {
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #2c3e50;
+            font-style: italic;
+        }
+        
+        /* Destinations Grid */
+        .destinations-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-bottom: 80px;
+        }
+        
+        .destination-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .destination-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .destination-image {
+            height: 250px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .destination-content {
+            padding: 25px;
+        }
+        
+        .destination-content h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: #8B0000;
+        }
+        
+        .destination-content p {
+            color: #2c3e50;
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+        
+        .destination-meta {
+            display: flex;
+            justify-content: space-between;
+            color: #666;
+            font-size: 0.9rem;
+            border-top: 1px solid #eee;
+            padding-top: 15px;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #1a1a1a;
+            color: #ddd;
+            padding: 60px 0 30px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-column h3 {
+            color: white;
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+        }
+        
+        .footer-column p {
+            font-style: italic;
+            color: white;
+        }
+        
+        .footer-column ul {
+            list-style: none;
+        }
+        
+        .footer-column ul li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-column ul li a {
+            color: #ddd;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-column ul li a:hover {
+            color: #B22222;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: #B22222;
+            border-radius: 50%;
+            color: white !important;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        
+        .social-links a:hover {
+            background-color: #8B0000;
+            color: white !important;
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid #333;
+            font-size: 0.9rem;
+            color: #cccccc;
+        }
+
+        /* Logo nel footer */
+        .footer-logo {
+            max-width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        
+        /* Colori marcati per tutti i titoli e testo */
+        h1, h2, h3, h4, h5, h6 {
+            color: #8B0000;
+        }
+        
+        p, li, a, span {
+            color: #2c3e50;
+        }
+        
+        /* Eccetto per i link nel footer */
+        footer a {
+            color: #ddd;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            nav ul {
+                margin-top: 20px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            nav ul li {
+                margin: 5px 15px;
+            }
+            
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+            
+            .destinations-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            /* Mobile dropdown */
+            .dropdown-content {
+                position: static;
+                box-shadow: none;
+                display: none;
+                width: 100%;
+            }
+            
+            .dropdown.active .dropdown-content {
+                display: block;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .hero {
+                padding: 60px 20px;
+            }
+            
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            
+            .intro-section {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+<style type="text/css" id="operaUserStyle"></style></head>
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="logo.webp" alt="Sentieri di libertà Logo">
+                <span>Sentieri di <span style="color: #B22222;">libertà</span></span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html#my-story">About Me</a></li>
+                    <li class="dropdown">
+                        <a>Destinations</a>
+                        <ul class="dropdown-content">
+                            <li><a href="mountains.html">Mountains</a></li>
+                            <li><a href="sea-beach.html">Sea and Beach</a></li>
+                            <li><a href="cities.html">Cities</a></li>
+                            <li><a href="lakes.html">Lakes</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="cv.html">Curriculum Vitae</a></li>
+                    <li><a href="trip.html">A Trip With Me</a></li>
+                    <li><a href="index.html#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">☰</div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Sea &amp; Coastal Towns</h1>
+            <p>Discover stories written by the waves, where the sea blends with life, history, and celebration</p>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="intro-section">
+            <h2>Stories Written by the Waves</h2>
+            <p>Here, I tell stories of seaside towns and coastal landscapes where the sea blends with life, history, and celebration. From Bibione and Lignano Sabbiadoro, to magical places like Barcelona and Procida, each destination offers more than just beaches — it offers culture, legends, local traditions, and seasonal festivals that reveal the soul of each community. I dive into the rhythm of each town, walking through its old streets and watching how the sea becomes part of the people's everyday life — shaping not only the view, but also the identity of the place.</p>
+        </div>
+
+        <div class="destinations-grid">
+            <a href="https://myfreedomtrails.wordpress.com/2025/06/08/%f0%9f%8c%8a-bibione-between-sea-and-wonder-diary-of-a-journey-between-relaxation-history-and-fun/" target="_blank" style="text-decoration: none;">
+                <div class="destination-card">
+                    <div class="destination-image" style="background-image: url('bibione.webp')"></div>
+                    <div class="destination-content">
+                        <h3>Bibione</h3>
+                        <p>Between sea and wonder: discover relaxation, history, and fun on Italy's most charming beach.</p>
+                        <div class="destination-meta">
+                            <span>Veneto, Italy</span>
+                            <span>Beach Resort</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://myfreedomtrails.wordpress.com/2024/10/08/lignano-sabbiadoro-tra-storia-e-spiagge-dorate/" target="_blank" style="text-decoration: none;">
+                <div class="destination-card">
+                    <div class="destination-image" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')"></div>
+                    <div class="destination-content">
+                        <h3>Lignano Sabbiadoro</h3>
+                        <p>History and golden beaches blend in this beloved coastal destination surrounded by pine forests.</p>
+                        <div class="destination-meta">
+                            <span>Friuli-Venezia Giulia</span>
+                            <span>Coastal Town</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://myfreedomtrails.wordpress.com/2024/10/10/barcellona-un-viaggio-estivo-tra-architettura-spiagge-e-arte-nel-cuore-della-catalogna-%f0%9f%87%aa%f0%9f%87%b8/" target="_blank" style="text-decoration: none;">
+                <div class="destination-card">
+                    <div class="destination-image" style="background-image: url('https://images.unsplash.com/photo-1583422409516-2895a77efded?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')"></div>
+                    <div class="destination-content">
+                        <h3>Barcellona</h3>
+                        <p>Where Mediterranean beaches meet Gaudí's architecture in the heart of Catalonia.</p>
+                        <div class="destination-meta">
+                            <span>Catalonia, Spain</span>
+                            <span>City & Beach</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://myfreedomtrails.wordpress.com/2024/09/29/ercolano-pompei-e-procida-un-viaggio-tra-storia-e-bellezza/" target="_blank" style="text-decoration: none;">
+                <div class="destination-card">
+                    <div class="destination-image" style="background-image: url('procida.jpeg')"></div>
+                    <div class="destination-content">
+                        <h3>Procida</h3>
+                        <p>The colorful island paradise in the Bay of Naples with authentic Mediterranean charm.</p>
+                        <div class="destination-meta">
+                            <span>Campania, Italy</span>
+                            <span>Island Paradise</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <img src="./Sea and Beach - Sentieri di libertà_files/Logo.jpg" alt="Sentieri di libertà" class="footer-logo">
+                    <p>Your travel companion to authentic and unforgettable experiences around the world.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="index.html#my-story">About Me</a></li>
+                        <li><a href="cv.html">Curriculum Vitae</a></li>
+                        <li><a href="trip.html">A Trip With Me</a></li>
+                        <li><a href="index.html#contact">Contact Me</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Sentieri di libertà. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Script per il menu mobile
+        document.querySelector('.mobile-menu').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        // Script per dropdown mobile
+        document.querySelectorAll('.dropdown > a').forEach(dropdown => {
+            dropdown.addEventListener('click', function(e) {
+                if (window.innerWidth <= 768) {
+                    e.preventDefault();
+                    this.parentElement.classList.toggle('active');
+                }
+            });
+        });
+
+        // Script per lo scroll smooth a tutte le ancore interne
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+
+
+</body></html>

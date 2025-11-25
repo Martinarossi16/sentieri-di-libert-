@@ -1,0 +1,139 @@
+<!-- BLOCCO DESTINAZIONI - SOLO NOME + IMMAGINE -->
+<style>
+  .destinations-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    font-family: Arial, sans-serif;
+    color: #000000;
+  }
+
+  .destination-section {
+    margin-bottom: 50px;
+  }
+
+  .destination-section h2 {
+    color: #e60000; /* rosso */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .destination-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .destination-card {
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding-bottom: 10px;
+  }
+
+  .destination-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .destination-card span {
+    display: block;
+    margin-top: 10px;
+    color: #e60000; /* rosso */
+    font-weight: bold;
+    font-size: 16px;
+  }
+</style>
+
+<div class="destinations-container">
+
+  <!-- MONTAGNA -->
+  <div class="destination-section">
+    <h2>Montagna</h2>
+    <div class="destination-grid">
+      <div class="destination-card">
+        <img src="https://images.unsplash.com/photo-1611262587960-d1d944104c2b?crop=entropy&cs=tinysrgb&fit=max&h=150&w=250" alt="Tarvisio">
+        <span>Tarvisio</span>
+      </div>
+      <div class="destination-card">
+        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?crop=entropy&cs=tinysrgb&fit=max&h=150&w=250" alt="Friuli">
+        <span>Friuli</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- MARE & COSTE -->
+  <div class="destination-section">
+    <h2>Mare & Coste</h2>
+    <div class="destination-grid">
+      <div class="destination-card">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?crop=entropy&cs=tinysrgb&fit=max&h=150&w=250" alt="Bibione">
+        <span>Bibione</span>
+      </div>
+      <div class="destination-card">
+        <img src="https://images.unsplash.com/photo-1505842465776-3c1b7f02f36f?crop=entropy&cs=tinysrgb&fit=max&h=150&w=250" alt="Barcellona">
+        <span>Barcellona</span>
+      </div>
+      <div class="destination-card">
+        <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?crop=entropy&cs=tinysrgb&fit=max&h=150&w=250" alt="Lignano Sabbiadoro">
+        <span>Lignano Sabbiadoro</span>
+      </div>
+      <div class="destination-card">
+        <img src="https://images.unsplash.com/photo-1513346949071-8c5e4eae9cf3?crop=entropy&cs=tinysrgb&fit=max&h=150&w=250" alt="Procida">
+        <span>Procida</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- CITTÀ -->
+  <div class="destination-section">
+    <h2>Città</h2>
+    <div class="destination-grid">
+      <div class="destination-card">
+        <img src="https://images.unsplash.com/photo-1508051123996-69f8caf4891b?crop=entropy&cs=tinysrgb&fit=max&h=150&w=250" alt="Vienna">
+        <span>Vienna</span>
+      </div>
+      <div class="destination-card">
+        <img src="https://images.unsplash.com/photo-1504580571904-98d93e27bde7?crop=entropy&cs=tinysrgb&fit=max&h=150&w=250" alt="Venezia">
+        <span>Venezia</span>
+      </div>
+      <div class="destination-card">
+        <img src="https://images.unsplash.com/photo-1502767089025-6572583495b0?crop=entropy&cs=tinysrgb&fit=max&h=150&w=250" alt="Monaco">
+        <span>Monaco</span>
+      </div>
+      <div class="destination-card">
+        <img src="https://images.unsplash.com/photo-1523906630133-f6934a1abf17?crop=entropy&cs=tinysrgb&fit=max&h=150&w=250" alt="Parigi">
+        <span>Parigi</span>
+      </div>
+      <div class="destination-card">
+        <img src="https://images.unsplash.com/photo-1535953531185-503b70f21f48?crop=entropy&cs=tinysrgb&fit=max&h=150&w=250" alt="Roma">
+        <span>Roma</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- LAGHI & FIUMI -->
+  <div class="destination-section">
+    <h2>Laghi & Fiumi</h2>
+    <div class="destination-grid">
+      <div class="destination-card">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?crop=entropy&cs=tinysrgb&fit=max&h=150&w=250" alt="Lago Wernberg">
+        <span>Lago Wernberg</span>
+      </div>
+      <div class="destination-card">
+        <img src="https://images.unsplash.com/photo-1508182316077-2f0efb73ebbb?crop=entropy&cs=tinysrgb&fit=max&h=150&w=250" alt="Lago Minisini">
+        <span>Lago Minisini</span>
+      </div>
+      <div class="destination-card">
+        <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?crop=entropy&cs=tinysrgb&fit=max&h=150&w=250" alt="Lago dei Tre Comuni">
+        <span>Lago dei Tre Comuni</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- FINE BLOCCO DESTINAZIONI -->

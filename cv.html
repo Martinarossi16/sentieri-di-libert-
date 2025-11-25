@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)https://sentieridiliberta.github.io/Blog/Curiculum-Vitae.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae - Sentieri di libertà</title>
+    <meta name="description" content="Martina Rossi&#39;s Curriculum Vitae - Travel Writer and Tourism Student">
+    <meta name="keywords" content="Martina Rossi, curriculum vitae, travel writer, tourism student, Udine University">
+    <meta name="author" content="Sentieri di libertà">
+    
+    <meta property="og:title" content="Curriculum Vitae - Sentieri di libertà">
+    <meta property="og:description" content="Martina Rossi&#39;s Curriculum Vitae - Travel Writer and Tourism Student">
+    <meta property="og:type" content="website">
+    
+    <style>
+        /* Reset e stili base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #ffefef, #ffcccc, #ff9999);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header */
+        header {
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: 700;
+            color: #8B0000;
+        }
+        
+        .logo img {
+            height: 50px;
+            width: auto;
+            border-radius: 5px;
+        }
+        
+        .logo span {
+            color: #B22222;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            align-items: center;
+        }
+        
+        nav ul li {
+            margin-left: 30px;
+            position: relative;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: #8B0000;
+        }
+        
+        /* Dropdown Menu */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 200px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            z-index: 1;
+            border-radius: 5px;
+            overflow: hidden;
+            top: 100%;
+            left: 0;
+        }
+        
+        .dropdown-content li {
+            margin: 0;
+        }
+        
+        .dropdown-content li a {
+            display: block;
+            padding: 10px 20px;
+            color: #2c3e50;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        
+        .dropdown-content li a:hover {
+            background-color: #f8f8f8;
+            color: #8B0000;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        .mobile-menu {
+            display: none;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            margin-bottom: 60px;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #FF6347;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto;
+            color: #FFB6C1;
+            font-weight: 600;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+        }
+        
+        /* CV Content */
+        .cv-container {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 40px;
+            margin-bottom: 80px;
+        }
+        
+        .cv-sidebar {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            height: fit-content;
+        }
+        
+        .cv-main {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .cv-section {
+            margin-bottom: 40px;
+        }
+        
+        .cv-section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: #8B0000;
+            border-bottom: 2px solid #8B0000;
+            padding-bottom: 10px;
+        }
+        
+        .cv-item {
+            margin-bottom: 25px;
+        }
+        
+        .cv-item h3 {
+            font-size: 1.3rem;
+            margin-bottom: 5px;
+            color: #2c3e50;
+        }
+        
+        .cv-item .date {
+            color: #8B0000;
+            font-weight: 500;
+            margin-bottom: 10px;
+            font-style: italic;
+        }
+        
+        .cv-item p {
+            color: #2c3e50;
+            font-style: italic;
+        }
+        
+        .skills-list {
+            list-style: none;
+        }
+        
+        .skills-list li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+            color: #2c3e50;
+            font-style: italic;
+        }
+        
+        .skills-list li:before {
+            content: "•";
+            color: #8B0000;
+            position: absolute;
+            left: 0;
+        }
+        
+        .personal-info {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .personal-info img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 3px solid #8B0000;
+            /* Aggiungiamo un'ombra per evidenziare ulteriormente il bordo */
+            box-shadow: 0 0 0 2px #ffcccc, 0 0 0 5px #8B0000;
+        }
+        
+        .personal-info h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #8B0000;
+        }
+        
+        .personal-info p {
+            color: #2c3e50;
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+        
+        .contact-info {
+            margin-top: 30px;
+        }
+        
+        .contact-info h3 {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            color: #8B0000;
+        }
+        
+        .contact-info p {
+            margin-bottom: 10px;
+            color: #2c3e50;
+            font-style: italic;
+        }
+        
+        .contact-info a {
+            color: #2c3e50;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .contact-info a:hover {
+            color: #8B0000;
+            text-decoration: underline;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #1a1a1a;
+            color: #ddd;
+            padding: 60px 0 30px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-column h3 {
+            color: white;
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+        }
+        
+        .footer-column p {
+            font-style: italic;
+            color: white;
+        }
+        
+        .footer-column ul {
+            list-style: none;
+        }
+        
+        .footer-column ul li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-column ul li a {
+            color: #ddd;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-column ul li a:hover {
+            color: #B22222;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: #B22222;
+            border-radius: 50%;
+            color: white !important;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        
+        .social-links a:hover {
+            background-color: #8B0000;
+            color: white !important;
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid #333;
+            font-size: 0.9rem;
+            color: #cccccc;
+        }
+
+        /* Logo nel footer */
+        .footer-logo {
+            max-width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        
+        /* Colori marcati per tutti i titoli e testo */
+        h1, h2, h3, h4, h5, h6 {
+            color: #8B0000;
+        }
+        
+        p, li, a, span {
+            color: #2c3e50;
+        }
+        
+        /* Eccetto per i link nel footer */
+        footer a {
+            color: #ddd;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            nav ul {
+                margin-top: 20px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            nav ul li {
+                margin: 5px 15px;
+            }
+            
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+            
+            .cv-container {
+                grid-template-columns: 1fr;
+            }
+            
+            /* Mobile dropdown */
+            .dropdown-content {
+                position: static;
+                box-shadow: none;
+                display: none;
+                width: 100%;
+            }
+            
+            .dropdown.active .dropdown-content {
+                display: block;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .hero {
+                padding: 60px 20px;
+            }
+            
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            
+            .cv-main, .cv-sidebar {
+                padding: 20px;
+            }
+        }
+    </style>
+<style type="text/css" id="operaUserStyle"></style></head>
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="logo.webp" alt="Sentieri di libertà Logo">
+                <span>Sentieri di <span style="color: #B22222;">libertà</span></span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html#my-story">About Me</a></li>
+                    <li class="dropdown">
+                        <a>Destinations</a>
+                        <ul class="dropdown-content">
+                            <li><a href="mountains.html">Mountains</a></li>
+                            <li><a href="sea-beach.html">Sea and Beach</a></li>
+                            <li><a href="cities.html">Cities</a></li>
+                            <li><a href="lakes.html">Lakes</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="cv.html">Curriculum Vitae</a></li>
+                    <li><a href="trip.html">A Trip With Me</a></li>
+                    <li><a href="index.html#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">☰</div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Curriculum Vitae</h1>
+            <p>My professional journey in tourism and travel writing</p>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="cv-container">
+            <div class="cv-sidebar">
+                <div class="personal-info">
+                    <!-- Sostituita l'immagine placeholder con martina-photo.jpg -->
+                    <img src="martina-photo.jpg" alt="Martina Rossi">
+                    <h2>Martina Rossi</h2>
+                    <p>Travel Writer &amp; Tourism Student</p>
+                    <p>Udine, Italy</p>
+                </div>
+                
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><strong>Email:</strong> <a href="mailto:martinarossi948@gmail.com">martinarossi948@gmail.com</a></p>
+                    <p><strong>Phone:</strong> <a href="tel:+393791181345">+39 379 118 1345</a></p>
+                    <p><strong>Website:</strong> <a href="https://sentieridiliberta.github.io/Blog/" target="_blank">https://sentieridiliberta.github.io/Blog/</a></p>
+                    <p><strong>CV:</strong> <a href="https://myfreedomtrails.wordpress.com/wp-content/uploads/2025/11/martina-rossi-cv-resume-20251108.pdf" target="_blank" style="background-color: #8B0000; color: white; padding: 8px 16px; border-radius: 5px; display: inline-block; text-decoration: none; font-weight: bold;">📥 Download CV (PDF)</a></p> 
+                </div>
+                
+                <div class="cv-section">
+                    <h2>Languages</h2>
+                    <ul class="skills-list">
+                        <li>Italian (native)</li>
+                        <li>English (A2)</li>
+                        <li>Spanish (A2)</li>
+                    </ul>
+                </div>
+                
+                <div class="cv-section">
+                    <h2>Skills</h2>
+                    <ul class="skills-list">
+                        <li>Lens assembly and adjustment</li>
+                        <li>Precision, manual dexterity, and attention to detail</li>
+                        <li>Independent task management</li>
+                        <li>Experience with optical tools and instruments</li>
+                    </ul>
+                </div>
+                
+                <div class="cv-section">
+                    <h2>Personal Skills &amp; Interests</h2>
+                    <ul class="skills-list">
+                        <li>Passionate about travel writing and blogging</li>
+                        <li>Love listening to pop and rap music</li>
+                        <li>Running with my dog</li>
+                        <li>Curious, kind, shy, reserved but always enthusiastic</li>
+                        <li>Deeply fascinated by discovering new cultures around the world</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="cv-main">
+                <div class="cv-section">
+                    <h2>Education</h2>
+                    <div class="cv-item">
+                        <h3><a href="https://www.google.com/maps/place/Istituto+Statale+di+Istruzione+Superiore+&#39;Paolino+d&#39;Aquileia&#39;/@46.0970223,13.4165759,17z/data=!3m1!4b1!4m6!3m5!1s0x477a4da3f8da30ed:0xb30e817cbe401ad!8m2!3d46.0970223!4d13.4191508!16s%2Fg%2F11tt6hn5wh?entry=ttu&amp;g_ep=EgoyMDI1MTEwNC4xIKXMDSoASAFQAw%3D%3D">ISIS Paolino D'Aquileia - Cividale del Friuli (UD)</a></h3>
+                        <div class="date">2019 - 2024 | Cividale</div>
+                        <p>High School Diploma in Social and Health Services - Optical Pathway</p>
+                        <p>A vocational institute with an optics specialization. The program combines scientific knowledge with practical expertise: from studying ocular anatomy to using optical instruments, from contact lens techniques to management of an eyewear laboratory. It's a concrete path toward employment, where technical precision and attention to individuals come together.</p>
+                        <p>Diploma obtained in 2024</p>
+                    </div>
+                    
+                    <div class="cv-item">
+                        <h3><a href="https://www.uniud.it/it/didattica/corsi/area-umanistica-formazione/lettere-beni-culturali/laurea/scienze-tecniche-turismo/corso/scienze-e-tecniche-del-turismo-culturale">The Technical Sciences of Tourism</a></h3>
+                        <div class="date">2025 - Present | Udine</div>
+                        <p>
+                            University of Udine
+                            <br>
+                            The Cultural Tourism Science and Techniques course aims to train professionals who can combine humanities, computer science, economics, and legal skills to fully understand the value of cultural heritage and plan its development in a tourism context.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="cv-section">
+                    <h2>Professional Experience</h2>
+                    <div class="cv-item">
+                        <h3>Optical Intern - Ottica 10 Decimi</h3>
+                        <div class="date">01/2024 - 02/2024 | Cividale del Friuli</div>
+                        <ul class="skills-list">
+                            <li>Assisted customers in selecting lenses and frames</li>
+                            <li>Managed orders, cleaned shop windows, and arranged products</li>
+                            <li>Paid close attention to detail and handled daily tasks efficiently</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="cv-item">
+                        <h3>Optical Intern - Megavision</h3>
+                        <div class="date">05/2023 - 06/2023 | Reana del Rojale (UD)</div>
+                        <ul class="skills-list">
+                            <li>Assembled and organized lenses in the warehouse</li>
+                            <li>Carried out tasks independently</li>
+                            <li>Maintained precision and followed instructions carefully</li>
+                            <li>Worked under pressure and met deadlines</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="cv-section">
+                    <h2>Projects</h2>
+                    <div class="cv-item">
+                        <h3>Travel blogger, Sentieri di libertà</h3>
+                        <div class="date">09/2024</div>
+                        <p>My name is Martina Rossi, I'm 20 years old and I'm an Italian travel writer passionate about storytelling, culture, and discovery.</p>
+                        <p>I believe that every journey—whether to a remote alpine lake or a vibrant European city—is a chance to connect deeply with the world and those who live in it.</p>
+                        <p>Through my blog Sentieri di Libertà, I share authentic travel experiences, focusing on history, local traditions, hidden gems, and emotional moments that define each destination. I write to inspire, inform, and evoke curiosity—blending thoughtful narration with a deep respect for place and people.</p>
+                        <p>I am currently studying the Technical Sciences of Tourism course at the University of Udine, with the aim of building a significant career in international tourism and cultural communication.</p>
+                    </div>
+                </div>
+                
+                <div class="cv-section">
+                    <h2>Certificates</h2>
+                    <div class="cv-item">
+                        <h3>Volunteering with the Aracon association</h3>
+                        <h3>Cambridge English A2</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <img src="./Curriculum Vitae - Sentieri di libertà_files/Logo.jpg" alt="Sentieri di libertà" class="footer-logo">
+                    <p>Your travel companion to authentic and unforgettable experiences around the world.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="index.html#my-story">About Me</a></li>
+                        <li><a href="cv.html">Curriculum Vitae</a></li>
+                        <li><a href="trip.html">A Trip With Me</a></li>
+                        <li><a href="index.html#contact">Contact Me</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Sentieri di libertà. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Script per il menu mobile
+        document.querySelector('.mobile-menu').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        // Script per dropdown mobile
+        document.querySelectorAll('.dropdown > a').forEach(dropdown => {
+            dropdown.addEventListener('click', function(e) {
+                if (window.innerWidth <= 768) {
+                    e.preventDefault();
+                    this.parentElement.classList.toggle('active');
+                }
+            });
+        });
+
+        // Script per lo scroll smooth a tutte le ancore interne
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+
+
+
+
+
+
+</body></html>

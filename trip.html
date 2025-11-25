@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)https://sentieridiliberta.github.io/Blog/A-trip-with-me.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Trip With Me - Sentieri di libertà</title>
+    <meta name="description" content="Experience authentic travel with Martina - personalized itineraries and unique travel experiences">
+    <meta name="keywords" content="travel with me, personalized itineraries, authentic travel, travel experiences, Sentieri di libertà">
+    <meta name="author" content="Sentieri di libertà">
+    
+    <meta property="og:title" content="A Trip With Me - Sentieri di libertà">
+    <meta property="og:description" content="Experience authentic travel with Martina - personalized itineraries and unique travel experiences">
+    <meta property="og:type" content="website">
+    
+    <style>
+        /* Reset e stili base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #ffefef, #ffcccc, #ff9999);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header */
+        header {
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: 700;
+            color: #8B0000;
+        }
+        
+        .logo img {
+            height: 50px;
+            width: auto;
+            border-radius: 5px;
+        }
+        
+        .logo span {
+            color: #B22222;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            align-items: center;
+        }
+        
+        nav ul li {
+            margin-left: 30px;
+            position: relative;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: #8B0000;
+        }
+        
+        /* Dropdown Menu */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 200px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            z-index: 1;
+            border-radius: 5px;
+            overflow: hidden;
+            top: 100%;
+            left: 0;
+        }
+        
+        .dropdown-content li {
+            margin: 0;
+        }
+        
+        .dropdown-content li a {
+            display: block;
+            padding: 10px 20px;
+            color: #2c3e50;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        
+        .dropdown-content li a:hover {
+            background-color: #f8f8f8;
+            color: #8B0000;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        .mobile-menu {
+            display: none;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1501555088652-021faa106b9b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            margin-bottom: 60px;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #FF6347;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto;
+            color: #FFB6C1;
+            font-weight: 600;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+        }
+        
+        /* Trip Experience Section */
+        .trip-intro {
+            text-align: center;
+            margin-bottom: 60px;
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .trip-intro h2 {
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+            color: #8B0000;
+        }
+        
+        .trip-intro p {
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #2c3e50;
+            font-style: italic;
+        }
+        
+        .trip-features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 80px;
+        }
+        
+        .feature-card {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+            text-align: center;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #B22222;
+        }
+        
+        .feature-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: #8B0000;
+        }
+        
+        .feature-card p {
+            color: #2c3e50;
+            font-style: italic;
+        }
+        
+        /* Itinerary Section */
+        .itinerary-section {
+            margin-bottom: 80px;
+        }
+        
+        .itinerary-section h2 {
+            text-align: center;
+            font-size: 2.2rem;
+            margin-bottom: 50px;
+            color: #8B0000;
+        }
+        
+        .itinerary-tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .tab-button {
+            background-color: white;
+            border: none;
+            padding: 12px 25px;
+            margin: 5px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s;
+            color: #2c3e50;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .tab-button.active {
+            background-color: #8B0000;
+            color: white;
+        }
+        
+        .tab-button:hover {
+            background-color: #B22222;
+            color: white;
+        }
+        
+        .itinerary-content {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .itinerary-day {
+            display: none;
+        }
+        
+        .itinerary-day.active {
+            display: block;
+        }
+        
+        .itinerary-day h3 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: #8B0000;
+            text-align: center;
+        }
+        
+        .itinerary-activities {
+            list-style: none;
+        }
+        
+        .itinerary-activities li {
+            margin-bottom: 20px;
+            padding-left: 30px;
+            position: relative;
+        }
+        
+        .itinerary-activities li:before {
+            content: "•";
+            color: #8B0000;
+            font-size: 1.5rem;
+            position: absolute;
+            left: 0;
+            top: -5px;
+        }
+        
+        .activity-time {
+            font-weight: 600;
+            color: #8B0000;
+            margin-right: 10px;
+        }
+        
+        /* Booking Section */
+        .booking-section {
+            background-color: white;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin-bottom: 80px;
+            text-align: center;
+        }
+        
+        .booking-section h2 {
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+            color: #8B0000;
+        }
+        
+        .booking-section p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            color: #2c3e50;
+            font-style: italic;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #1a1a1a;
+            color: #ddd;
+            padding: 60px 0 30px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-column h3 {
+            color: white;
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+        }
+        
+        .footer-column p {
+            font-style: italic;
+            color: white;
+        }
+        
+        .footer-column ul {
+            list-style: none;
+        }
+        
+        .footer-column ul li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-column ul li a {
+            color: #ddd;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-column ul li a:hover {
+            color: #B22222;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: #B22222;
+            border-radius: 50%;
+            color: white !important;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        
+        .social-links a:hover {
+            background-color: #8B0000;
+            color: white !important;
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid #333;
+            font-size: 0.9rem;
+            color: #cccccc;
+        }
+
+        /* Logo nel footer */
+        .footer-logo {
+            max-width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        
+        /* Colori marcati per tutti i titoli e testo */
+        h1, h2, h3, h4, h5, h6 {
+            color: #8B0000;
+        }
+        
+        p, li, a, span {
+            color: #2c3e50;
+        }
+        
+        /* Eccetto per i link nel footer */
+        footer a {
+            color: #ddd;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            nav ul {
+                margin-top: 20px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            nav ul li {
+                margin: 5px 15px;
+            }
+            
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+            
+            .trip-features {
+                grid-template-columns: 1fr;
+            }
+            
+            .itinerary-content {
+                padding: 20px;
+            }
+            
+            /* Mobile dropdown */
+            .dropdown-content {
+                position: static;
+                box-shadow: none;
+                display: none;
+                width: 100%;
+            }
+            
+            .dropdown.active .dropdown-content {
+                display: block;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .hero {
+                padding: 60px 20px;
+            }
+            
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            
+            .trip-intro, .booking-section {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+<style type="text/css" id="operaUserStyle"></style></head>
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="logo.webp" alt="Sentieri di libertà Logo">
+                <span>Sentieri di <span style="color: #B22222;">libertà</span></span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html#my-story">About Me</a></li>
+                    <li class="dropdown">
+                        <a>Destinations</a>
+                        <ul class="dropdown-content">
+                            <li><a href="mountains.html">Mountains</a></li>
+                            <li><a href="sea-beach.html">Sea and Beach</a></li>
+                            <li><a href="cities.html">Cities</a></li>
+                            <li><a href="lakes.html">Lakes</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="cv.html">Curriculum Vitae</a></li>
+                    <li><a href="trip.html">A Trip With Me</a></li>
+                    <li><a href="index.html#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">☰</div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>A Trip With Me</h1>
+            <p>Experience authentic travel with personalized itineraries and unique experiences</p>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="trip-intro">
+            <h2>Travel Differently</h2>
+            <p>Join me on a journey beyond the typical tourist paths. I create personalized travel experiences that focus on authentic connections, cultural immersion, and sustainable practices. Whether you're interested in exploring hidden gems, learning about local traditions, or simply experiencing a destination through the eyes of a local, I'll design an itinerary that matches your interests and travel style.</p>
+        </div>
+
+        <div class="trip-features">
+            <div class="feature-card">
+                <div class="feature-icon">🗺️</div>
+                <h3>Personalized Itineraries</h3>
+                <p>Each journey is carefully crafted based on your interests, pace, and preferences. No two trips are alike.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🌿</div>
+                <h3>Sustainable Travel</h3>
+                <p>We prioritize eco-friendly accommodations, support local businesses, and practice responsible tourism.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📚</div>
+                <h3>Cultural Immersion</h3>
+                <p>Go beyond sightseeing with authentic experiences that connect you to local traditions and communities.</p>
+            </div>
+        </div>
+
+        <div class="itinerary-section">
+            <h2>Sample Itinerary: Alpine Discovery</h2>
+            
+            <div class="itinerary-tabs">
+                <button class="tab-button active" data-day="day1">Day 1</button>
+                <button class="tab-button" data-day="day2">Day 2</button>
+                <button class="tab-button" data-day="day3">Day 3</button>
+                <button class="tab-button" data-day="day4">Day 4</button>
+            </div>
+            
+            <div class="itinerary-content">
+                <div class="itinerary-day active" id="day1">
+                    <h3>Arrival &amp; Mountain Village Immersion</h3>
+                    <ul class="itinerary-activities">
+                        <li><span class="activity-time">Morning:</span> Arrival at the mountain village and welcome meeting. Introduction to the local culture and traditions.</li>
+                        <li><span class="activity-time">Afternoon:</span> Gentle hike to a nearby alpine lake with stunning views. Picnic lunch with local specialties.</li>
+                        <li><span class="activity-time">Evening:</span> Dinner at a family-run agriturismo featuring traditional recipes passed down through generations.</li>
+                    </ul>
+                </div>
+                
+                <div class="itinerary-day" id="day2">
+                    <h3>Alpine Trails &amp; Local Crafts</h3>
+                    <ul class="itinerary-activities">
+                        <li><span class="activity-time">Morning:</span> Scenic hike through ancient forests to a high-altitude pasture. Learn about alpine flora and fauna.</li>
+                        <li><span class="activity-time">Afternoon:</span> Visit to a local artisan workshop specializing in traditional woodcarving. Hands-on experience creating a small souvenir.</li>
+                        <li><span class="activity-time">Evening:</span> Free time to explore the village or relax before a dinner featuring foraged ingredients.</li>
+                    </ul>
+                </div>
+                
+                <div class="itinerary-day" id="day3">
+                    <h3>Mountain Passes &amp; Cultural Heritage</h3>
+                    <ul class="itinerary-activities">
+                        <li><span class="activity-time">Morning:</span> Journey across a historic mountain pass with breathtaking views. Stop at a centuries-old refuge.</li>
+                        <li><span class="activity-time">Afternoon:</span> Explore a remote alpine church with unique frescoes and learn about mountain spirituality.</li>
+                        <li><span class="activity-time">Evening:</span> Traditional dinner followed by storytelling session with local elders sharing mountain legends.</li>
+                    </ul>
+                </div>
+                
+                <div class="itinerary-day" id="day4">
+                    <h3>Farewell &amp; Future Journeys</h3>
+                    <ul class="itinerary-activities">
+                        <li><span class="activity-time">Morning:</span> Sunrise meditation at a scenic viewpoint. Final hike to a hidden waterfall.</li>
+                        <li><span class="activity-time">Afternoon:</span> Farewell lunch featuring the best of local cuisine. Exchange contact information and travel tips.</li>
+                        <li><span class="activity-time">Evening:</span> Departure with memories of an authentic alpine experience and connections that will last beyond the journey.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="booking-section">
+            <h2>Ready for Your Journey?</h2>
+            <p>Let's create a unique travel experience together. Contact me to discuss your interests, preferences, and travel dates. I'll design a personalized itinerary that matches your dreams and creates memories that will last a lifetime.</p>
+            <!-- Il pulsante "Plan Your Trip" è stato rimosso -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <img src="./A Trip With Me - Sentieri di libertà_files/Logo.jpg" alt="Sentieri di libertà" class="footer-logo">
+                    <p>Your travel companion to authentic and unforgettable experiences around the world.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="index.html#my-story">About Me</a></li>
+                        <li><a href="cv.html">Curriculum Vitae</a></li>
+                        <li><a href="trip.html">A Trip With Me</a></li>
+                        <li><a href="index.html#contact">Contact Me</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Sentieri di libertà. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Script per il menu mobile
+        document.querySelector('.mobile-menu').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        // Script per i tab degli itinerari
+        document.querySelectorAll('.tab-button').forEach(button => {
+            button.addEventListener('click', function() {
+                // Rimuovi la classe active da tutti i tab buttons
+                document.querySelectorAll('.tab-button').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                
+                // Aggiungi la classe active al tab button cliccato
+                this.classList.add('active');
+                
+                // Nascondi tutti i contenuti degli itinerari
+                document.querySelectorAll('.itinerary-day').forEach(day => {
+                    day.classList.remove('active');
+                });
+                
+                // Mostra il contenuto dell'itinerario corrispondente
+                const dayId = this.getAttribute('data-day');
+                document.getElementById(dayId).classList.add('active');
+            });
+        });
+
+        // Script per dropdown mobile
+        document.querySelectorAll('.dropdown > a').forEach(dropdown => {
+            dropdown.addEventListener('click', function(e) {
+                if (window.innerWidth <= 768) {
+                    e.preventDefault();
+                    this.parentElement.classList.toggle('active');
+                }
+            });
+        });
+
+        // Script per lo scroll smooth a tutte le ancore interne
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+
+
+</body></html>
